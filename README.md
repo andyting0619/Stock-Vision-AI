@@ -1,7 +1,7 @@
 # Stock Vision AI
 - An AI web application for stock prediction and visualization.
 # The Link to the Demo Web Application
-- 
+- https://stock-vision-ai.streamlit.app
 # Requirement
 - Python 3.9 or 3.10
 # How to Use
