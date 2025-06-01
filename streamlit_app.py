@@ -191,11 +191,11 @@ def generate_insight(df_processed, pred_list):
 
         insight = f"""
         <div style="font-family: Inter, sans-serif; font-size: 16px; line-height: 1.6;">
-            <strong>The next predicted stock price is:</strong> 
+            <strong>The predicted stock price of the next day is:</strong> 
             <span style="color: #2ECC71;">${next_predicted_price:.2f}</span><br>
-            <strong>Last actual price:</strong> 
+            <strong>The actual stock price of the last day:</strong> 
             <span style="color: #B71C1C;">${last_actual_price:.2f}</span><br>
-            <strong>Change:</strong> 
+            <strong>Predicted Stock Return:</strong> 
             <span style="color: {'#2ECC71' if percent_change >= 0 else '#B71C1C'};">
                 {percent_change:+.2f}%
             </span>
@@ -242,7 +242,7 @@ tab1.col1, tab1.col2 = tab1.columns(2)
 with tab1.col1:
     st.markdown(f"""<div style="font-family: Inter, sans-serif; font-size: 18px; line-height: 1.6;"> 
     <strong>{stock_selection}</strong><be> 
-    <strong>stock predictions for the next 5 Days</strong>
+    <strong>Stock Predictions for the Next 5 Days</strong>
     </div>""", unsafe_allow_html=True)
     st.dataframe(pred_df)
 
