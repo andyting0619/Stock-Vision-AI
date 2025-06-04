@@ -253,10 +253,9 @@ with tab1.col2:
     st.write(' ')
     st.markdown(insight, unsafe_allow_html=True)
 
-
-dedication = """<div style="font-family: Inter, sans-serif; font-size: 16px; line-height: 1.6;">🛠️The Stock Vision AI model is trained by :blue-background[Andy Ting Zhi Wei]."""
 with tab1.container(border=True):
-    st.markdown(dedication, unsafe_allow_html=True)
+    st.markdown(
+        '''🛠️The Stock Vision AI model is trained by :blue-background[Andy Ting Zhi Wei].''')
     st.markdown(
         '''👨‍💻This web application is deployed by :blue-background[Andy Ting Zhi Wei].''')
 
