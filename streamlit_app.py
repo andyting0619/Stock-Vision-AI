@@ -258,7 +258,7 @@ dedication = """<div style="font-family: Inter, sans-serif; font-size: 16px; lin
 with tab1.container(border=True):
     st.markdown(dedication, unsafe_allow_html=True)
     st.markdown(
-        '''🌐This web application is created by :blue-background[Andy Ting Zhi Wei].''')
+        '''🌐This web application is deployed by :blue-background[Andy Ting Zhi Wei].''')
 
 tab1.warning('Disclaimer: This project is only for research and educational purposes, and it is not intended for financial or investment advice!', icon="⚠️")
 
