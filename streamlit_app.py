@@ -195,7 +195,7 @@ def generate_insight(df_processed, pred_list):
             <span style="color: #2ECC71;">${next_predicted_price:.2f}</span><br>
             <strong>The actual stock price of the last day:</strong> 
             <span style="color: #B71C1C;">${last_actual_price:.2f}</span><br>
-            <strong>Predicted Stock Return:</strong> 
+            <strong>Predicted stock return:</strong> 
             <span style="color: {'#2ECC71' if percent_change >= 0 else '#B71C1C'};">
                 {percent_change:+.2f}%
             </span>
@@ -254,7 +254,7 @@ with tab1.col2:
     st.markdown(insight, unsafe_allow_html=True)
 
 
-dedication = """<div style="font-family: Inter, sans-serif; font-size: 16px; line-height: 1.6;"><i>The Stock Vision AI model is trained by Andy Ting Zhi Wei.</i>"""
+dedication = """<div style="font-family: Inter, sans-serif; font-size: 16px; line-height: 1.6;"><i>👨‍💻The Stock Vision AI model is trained by Andy Ting Zhi Wei.</i>"""
 with tab1.container(border=True):
     st.markdown(dedication, unsafe_allow_html=True)
     st.markdown(
