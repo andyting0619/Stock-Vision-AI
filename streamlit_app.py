@@ -254,11 +254,11 @@ with tab1.col2:
     st.markdown(insight, unsafe_allow_html=True)
 
 
-dedication = """<div style="font-family: Inter, sans-serif; font-size: 16px; line-height: 1.6;"><i>👨‍💻The Stock Vision AI model is trained by Andy Ting Zhi Wei.</i>"""
+dedication = """<div style="font-family: Inter, sans-serif; font-size: 16px; line-height: 1.6;">🛠️The Stock Vision AI model is trained by Andy Ting Zhi Wei."""
 with tab1.container(border=True):
     st.markdown(dedication, unsafe_allow_html=True)
     st.markdown(
-        '''🌐This web application is deployed by :blue-background[Andy Ting Zhi Wei].''')
+        '''👨‍💻This web application is deployed by :blue-background[Andy Ting Zhi Wei].''')
 
 tab1.warning('Disclaimer: This project is only for research and educational purposes, and it is not intended for financial or investment advice!', icon="⚠️")
 
